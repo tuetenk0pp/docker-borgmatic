@@ -1,0 +1,7 @@
+services:
+  borgmatic:
+    labels:
+      net.unraid.docker.managed: 'composeman'
+      net.unraid.docker.icon: 'https://avatars.githubusercontent.com/u/90713550?s=200&v=4'
+      net.unraid.docker.webui: ''
+      net.unraid.docker.shell: ''

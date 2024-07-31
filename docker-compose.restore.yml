@@ -4,7 +4,7 @@ services:
     cap_add:
       - SYS_ADMIN
     volumes:
-      - /host/mount/location:/restore
+      - ${VOLUME_RESTORE}:/restore
     security_opt:
       - apparmor:unconfined
       - label:disable
