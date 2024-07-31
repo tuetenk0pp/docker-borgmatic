@@ -1,7 +1,7 @@
+data/.borgmatic/
 data/.cache/
 data/.config/
 data/.ssh/
-data/repository/
 .env
-data/borgmatic.d/
-data/.borgmatic
+data/borgmatic.d/*
+!data/borgmatic.d/config.yaml.template
